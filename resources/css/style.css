@@ -555,6 +555,10 @@ background-color: rgb(250,211,84);
   #exhibit-section .content h4,span{
     display: none;
   }
+
+  video{
+    border:none;
+  }
 }
 
 footer{
@@ -587,7 +591,6 @@ footer a{
     display:none;
   }
   footer{
-    border:none;
     margin:0.5rem 0rem 1rem 1rem;
     padding: 0;
   }

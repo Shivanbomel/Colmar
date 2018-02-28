@@ -346,6 +346,35 @@ cite{
 }
 
 
+@media only screen and (max-width: 850px) {
+
+  .mobile{
+    display: none;
+  }
+
+  #features-section a{
+    color: blue;
+    font-size: 0.8rem;
+  }
+
+  #features-section h1{
+    margin-bottom: 1.5rem;
+  }
+
+  #features-section span{
+    font-size: 0.8rem;
+    margin-right:0.5rem;
+    line-height: 1rem;
+  }
+
+  cite{
+    font-size:0.7rem;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+  }
+}
+
 @media only screen and (max-width: 550px) {
 
   .left{
@@ -485,6 +514,14 @@ h6{
     display: block;
     margin-left: 1rem;
   }
+  .course a{
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 2rem;
+  }
+  .course a:hover {
+    color:rgb(48,80,212);
+  }
   .courses{
     flex-direction: column;
     flex-wrap: nowrap;
@@ -542,6 +579,15 @@ background-color: rgb(250,211,84);
 #exhibit-section .left h4{
   margin-top:1.5rem;
 }
+@media only screen and (max-width: 850px) {
+  #exhibit-section span{
+    display: none;
+  }
+
+  #exhibit-section .left h4{
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 550px) {
   #exhibit-section .right{
@@ -577,13 +623,17 @@ footer .content{
 }
 
 footer a{
-  margin-left: 2rem;
+  margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 850px) {
+footer a, footer{
+  font-size: 0.8rem;
+}
 }
 
 @media only screen and (max-width: 550px) {
-  footer .social{
-    display: none;
-  }
+
   footer span{
     display: block;
   }
